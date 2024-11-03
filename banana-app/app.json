@@ -1,0 +1,32 @@
+{
+    "expo": {
+      "name": "BananaRipeness",
+      "slug": "banana-ripeness",
+      "version": "1.0.0",
+      "sdkVersion": "51.0.0",
+      "platforms": ["ios", "android"],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.Hailu03.bananaripeness",
+        "infoPlist": {
+          "NSAppTransportSecurity": {
+            "NSAllowsArbitraryLoads": true
+          },
+          "NSPhotoLibraryUsageDescription": "Allow access to the photo library for selecting images"
+        }
+      },
+
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#FFFFFF"
+        },
+        "package": "com.Hailu03.bananaripeness",
+        "permissions": ["CAMERA"]
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      }
+    }
+  }
+  
