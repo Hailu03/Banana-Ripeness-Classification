@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banana Ripeness Detector</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        img { border: 2px solid #000; margin-top: 20px; width: 640px; height: 480px; }
+        h1 { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Live Camera Stream</h1>
+    <img src="/video_feed" alt="Video Stream">
+
+    <h2>Capture Image and Detect Ripeness</h2>
+    <button id="captureBtn">Take Picture</button>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById('captureBtn').addEventListener('click', async () => {
+            try {
+                const response = await fetch('/capture', { method: 'POST' });
+                const data = await response.json();
+
+                if (data.class) {
+                    document.getElementById('result').innerText = "Ripeness: " + data.class;
+                } else if (data.error) {
+                    document.getElementById('result').innerText = "Error: " + data.error;
+                }
+            } catch (error) {
+                document.getElementById('result').innerText = "Error capturing image";
+                console.error(error);
+            }
+        });
+    </script>
+</body>
+</html>
+
