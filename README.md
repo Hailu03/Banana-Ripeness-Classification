@@ -34,26 +34,11 @@ Install the required dependencies:
    ```bash
    pip install -r requirements.txt
 3. Usage
-To train the model, run:
+To start the web server, run:
    ```bash
-   python train.py
-To make predictions on new images, run:
-   ```bash
-   python predict.py --image path_to_your_image.jpg
+   python banana.py
    ```
-4.Run tests
-To run the tests, use:
-   ```bash
-   pytest tests/
-   ```
-5. Deployment
-To deploy the application, build the Docker image:
-   ``` bash
-   docker build -t banana-classification .
-Run the Docker container:
-   ``` bash
-   docker run -p 5000:5000 banana-classification
-   ```
+
 Authors
 👤 Le Thanh Hai
 
