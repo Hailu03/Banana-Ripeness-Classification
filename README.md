@@ -7,15 +7,15 @@
 
 - **Languages**: Python
 - **Frameworks**: TensorFlow, Keras, Flask
-- **Technologies**: OpenCV, NumPy, Pandas, Matplotlib, Docker
+- **Technologies**: OpenCV, NumPy, Pandas, Matplotlib
 
 ## Live Demo 
 
-A live demo of the banana classification model is currently in progress. Stay tuned for updates! :smile:
+[Click me to see the live demo](https://drive.google.com/file/d/19PQtizd10-vuHVRHPY9v_5nB0aPe9_ev/view?usp=sharing)
 
 ## Getting Started
 
-This section provides instructions on setting up the project locally. 
+This section provides instructions on setting up the project on Raspberry Pi. 
 
 ### Prerequisites
 
@@ -40,31 +40,6 @@ To start the web server, run:
    ```
 
 Authors
-👤 Le Thanh Hai
-
-GitHub: @Hailu03
-Twitter: @your-twitter-handle
-LinkedIn: Le Thanh Hai
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page for more details.
-
-Show your support
-If you like this project, give it a ⭐️!
-
-Acknowledgments
-Special thanks to OpenAI for their API, which provided valuable insights.
-Inspiration from various machine learning courses and communities.
-📝 License
-This project is licensed under the MIT License.
-
-markdown
-### Customization Steps
-1. **Project Name & Description**: The project name is set as "Banana Classification." Modify the description if you wish to add more details.
-2. **Built With**: Ensure that the languages, frameworks, and technologies accurately reflect what you used.
-3. **Live Demo**: Add a link to your live demo if available.
-4. **Getting Started**: Update the prerequisites and instructions as necessary.
-5. **Authors**: Include your information and any contributors.
-6. **Contributing**: Adjust the contributing guidelines as necessary.
-7. **Acknowledgments**: Add any specific sources or contributors you want to recognize.
-
-Feel free to modify any sections to better fit your project specifics!
+👤 Le Thanh Hai (Machine learning fine-tuned and training)
+👤 Huynh Dang Trinh (Data Collection and edge device fine-tuned)
+👤 Tran Duy Khang (Edge device environment fine-tuned and deploy)
