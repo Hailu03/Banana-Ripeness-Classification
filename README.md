@@ -45,4 +45,4 @@ Authors:
 
 👤 Huynh Dang Trinh (Data Collection and edge device fine-tuned)
 
-👤 Tran Duy Khang (Edge device environment fine-tuned and deploy)
+👤 Tran Duy Khang (Edge device environment fine-tuned and deploy to Raspberry Pi)
