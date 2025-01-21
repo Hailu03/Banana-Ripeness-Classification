@@ -39,7 +39,8 @@ To start the web server, run:
    python banana.py
    ```
 
-Authors
+Authors:
+
 👤 Le Thanh Hai (Machine learning fine-tuned and training)
 
 👤 Huynh Dang Trinh (Data Collection and edge device fine-tuned)
