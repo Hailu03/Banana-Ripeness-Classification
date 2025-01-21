@@ -41,5 +41,7 @@ To start the web server, run:
 
 Authors
 👤 Le Thanh Hai (Machine learning fine-tuned and training)
+
 👤 Huynh Dang Trinh (Data Collection and edge device fine-tuned)
+
 👤 Tran Duy Khang (Edge device environment fine-tuned and deploy)
